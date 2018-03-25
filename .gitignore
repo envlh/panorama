@@ -1,0 +1,5 @@
+/conf/conf.inc.php
+/detections/*.txt
+/www/static/img/**/*.gif
+/www/static/img/**/*.jpg
+/www/static/img/**/*.png

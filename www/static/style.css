@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, input, select {
+    font-family: Ubuntu, Roboto, sans-serif;
+    font-size: 14px;
+}
+
+h1, h2, h3, p, ul, table {
+    margin: 16px 0;
+    line-height: 24px;
+}
+h1 {
+	font-size: 20px;
+}
+h2 {
+    border-bottom: 1px solid #CCC;
+	font-size: 16px;
+}
+h3 {
+    margin: 0 0 -16px 0;
+	font-size: 14px;
+    font-weight: normal;
+}
+ul {
+    margin: 16px;
+}
+p + ul {
+    margin-top: -16px;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+textarea, input[type=text], input[type=password] {
+    padding: 3px 5px;
+    border: 1px solid #CCC;
+}
+input[type=submit] {
+    padding: 2px 8px;
+    border: 1px solid #CCC;
+    background: #EEE;
+}
+select {
+    min-width: 200px;
+    border: 1px solid #CCC;
+}
+select option {
+    padding: 3px 5px;
+}
+
+a {
+	text-decoration: none;
+    color: #30E;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+#menu {
+    color: #FFF;
+    background: #333;
+}
+#menu ul {
+    display: inline-block;
+    margin: 8px;
+    margin-top: 12px;
+}
+#menu li {
+    float: left;
+    margin: 0 16px;
+    list-style-type: none;
+}
+#menu li a {
+    font-size: 16px;
+    text-align: center;
+    color: #FFF;
+}
+#menu img {
+    vertical-align: text-bottom;
+}
+#content {
+    clear: both;
+    margin: 16px;
+}
+#footer {
+    clear: both;
+    padding: 0 16px;
+    background: #333;
+    color: #FFF;
+}
+#footer a {
+    color: #FFF;
+	text-decoration: underline;
+}
+
+table {
+    border-collapse: collapse;
+}
+table th, table td {
+    padding: 2px 8px;
+}
+table th {
+    background: #333;
+    font-weight: normal;
+    color: #FFF;
+}
+table th a {
+    text-decoration: underline;
+    color: #FFF;
+}
+
+table.panorama td {
+    padding: 0;
+    padding-right: 8px;
+}
+
+table.map {
+    border: 1px solid #333;
+}
+table.map th {
+    display: none;
+}
+table.map th, table.map td {
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    line-height: 16px;
+    font-size: 12px;
+    text-align: center;
+}
+table.map td {
+    color: #FFF;
+}
+table.map td.square_undefined { background: #000; }
+table.map td.square_empty { background: #FFF; }
+table.map td.square_0 { background: #FFF; }
+table.map td.square_1 { background: #EEE; }
+table.map td.square_2 { background: #DDD; }
+table.map td.square_3 { background: #CCC; }
+table.map td.square_4 { background: #BBB; }
+table.map td.square_5 { background: #AAA; }
+table.map td.square_6 { background: #999; }
+table.map td.square_7 { background: #888; }
+table.map td.square_8 { background: #777; }
+table.map td.square_9 { background: #666; }
+table.map td.square_10 { background: #555; }
+table.map td.square_11 { background: #444; }
+table.map td.square_12 { background: #333; }
+table.map td.square_13 { background: #222; }
+table.map td.square_14 { background: #111; }
+table.map td.square_15 { background: #000; }
+table.map td.square_brave { background: #00F; }
+table.map td.square_sadique { background: #F00; }
+table.map td.square_rampant { background: #0F0; }
+table.map td.square_mix { background: #F0F; }
+p.caption {
+    margin: -16px 0 0 0;
+}
+
+table.bigMap th {
+    display: table-cell;
+}
+table.bigMap th, table.bigMap td {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #333;
+    font-size: 14px;
+}
+
+table.nains {
+    text-align: center;
+}
+table.nains tr.brave { background: #CCF; }
+table.nains tr.sadique { background: #FCC; }
+table.nains tr.rampant { background: #CFC; }
+table.nains tr:hover { background: #FFF; }
+table.nains tr.separator {
+    border-top: 1px solid #666;
+}
+table.nains a {
+    color: #000;
+}
+table.nains td.string {
+    text-align: left;
+}
+table.nains td.number {
+    text-align: right;
+}
+
+table.objets {
+    text-align: center;
+}
+table.objets tr:hover {
+    background: #EEE;
+}
+table.objets tr.separator {
+    border-top: 1px solid #666;
+}
+table.objets td.string {
+    text-align: left;
+}
+
+table.users {
+    text-align: center;
+}
+table.users tr:hover {
+    background: #EEE;
+}
+table.users td {
+    border-top: 1px solid #999;
+}
+table.users td.string {
+    text-align: left;
+}
+
+table.updates {
+    text-align: center;
+}
+table.updates tr:hover {
+    background: #EEE;
+}
+table.updates td {
+    border-top: 1px solid #999;
+}
+table.updates td.string {
+    text-align: left;
+}
+
+table.stats {
+    text-align: right;
+}
+table.stats th {
+    min-width: 70px;
+}
+table.stats tr:hover {
+    background: #EEE;
+}
+
+table.maps input {
+    width: 30px;
+}
+
+input.hp {
+    width: 40px;
+}
+
+img.avatar {
+    border: 1px solid #000;
+    vertical-align: middle;
+    background: #FFF;
+}
