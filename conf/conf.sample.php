@@ -13,9 +13,9 @@ define('DB_NAME', '');
 # website conf for url rewriting, static files, etc.
 define('SITE_TITLE', 'Le Panorama Des Cartes');
 define('SITE_SHORT_TITLE', 'LPDC');
-define('SITE_DIR', 'http://www.example.com/');
+define('SITE_DIR', 'http://lpdc.biblionainwak.com/');
 define('SITE_SHORT_DIR', '');
-define('SITE_STATIC_DIR', 'http://www.example.com/static/');
+define('SITE_STATIC_DIR', 'http://lpdc.biblionainwak.com/static/');
 define('SITE_TMP_DIR', '/tmp/');
 
 # cookies
